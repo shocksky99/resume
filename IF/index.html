@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>黃宏恩的履歷表</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&display=swap');
+    body {
+      font-family: 'Noto Sans TC', 'Microsoft JhengHei', Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #e6ecfa 0%, #f9fafb 100%);
+      color: #183153;
+    }
+    .resume-container {
+      max-width: 720px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 10px 30px rgba(62, 100, 170, .13);
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 35px;
+      border-bottom: 2px solid #f2f5fb;
+      padding-bottom: 20px;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #2176ae;
+      background: #eee;
+      box-shadow: 0 4px 15px rgba(33, 118, 174, .10);
+    }
+    .head-info {
+      flex-grow: 1;
+    }
+    .head-info h1 {
+      font-size: 2.25rem;
+      color: #2176ae;
+      margin: 0;
+    }
+    .head-info .school {
+      font-size: 1.15rem;
+      color: #345073;
+      margin-top: 7px;
+      letter-spacing: 0.7px;
+    }
+
+    .section-title {
+      font-size: 1.13em;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #1e3559;
+      letter-spacing: 0.4px;
+      background: linear-gradient(90deg, #c6e1ff 60%, #f9fafb 100%);
+      display: inline-block;
+      padding: 2px 12px 2px 8px;
+      border-radius: 6px 17px 17px 6px;
+    }
+    .item {
+      margin-bottom: 17px;
+      font-size: 1.08em;
+    }
+    .skills-langs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+    ul {
+      margin: 0 0 0 18px;
+      padding: 0;
+    }
+    .self-intro {
+      margin-top: 10px;
+      background: #f3faff;
+      border-left: 5px solid #2176ae;
+      padding: 18px 18px 18px 22px;
+      border-radius: 9px;
+      font-size: 1.13em;
+      color: #305178;
+      line-height: 1.9em;
+      box-shadow: 0 3px 10px rgba(85, 170, 255, .08);
+    }
+    @media (max-width: 600px) {
+      .resume-container { padding: 14px; }
+      .header { flex-direction: column; text-align: center; gap: 22px;}
+      .profile-img { width: 97px; height: 97px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <div class="header">
+      <img class="profile-img" src="profile.jpg" alt="大頭照" />
+      <div class="head-info">
+        <h1>黃宏恩</h1>
+        <div class="school">
+          亞洲大學・經營管理系<span style="color: #4095d6; font-weight:400; margin-left: 13px;">學號：114031078</span>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <span class="section-title">技能</span>
+      <div class="item">
+        <ul>
+          <li>社交</li>
+          <li>打籃球</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <span class="section-title">語言能力</span>
+      <div class="item">
+        <ul>
+          <li>國文</li>
+          <li>英文（中等）</li>
+          <li>日文（中等）</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <span class="section-title">自我介紹</span>
+      <div class="self-intro">
+        哈囉您好！我是就讀亞洲大學經管系一年級的黃宏恩，我善於與人交流，喜歡與別人交談，並且我也喜歡學習新事物，像是教授這次給的作業，讓我能學習到一些寫程式的基礎，希望教授不要當我。
+      </div>
+    </div>
+  </div>
+</body>
+</html>
